@@ -13,7 +13,7 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 cacheSolve <- function(x, ...) {
-       
+  
   e <- x$getInv()
   if(!is.null(e)) {
     message("getting cached data")
